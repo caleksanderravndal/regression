@@ -60,7 +60,7 @@ Results disproved this: lagged demand features (yesterday’s and last week’s 
 
 ---
 
-## 📈 Final Model
+## Final model
 - **Model:** Ridge Regression  
 - **Test R²:** 0.92  
 - **Key drivers:** Lag features (yesterday, last week)  
@@ -68,7 +68,7 @@ Results disproved this: lagged demand features (yesterday’s and last week’s 
 
 ---
 
-## 🚀 How to run
+## How to run
 1. Clone this repository  
 2. Install requirements:  
    ```bash
@@ -79,3 +79,10 @@ Results disproved this: lagged demand features (yesterday’s and last week’s 
 
 ## License
 This project is for educational purposes under the BSc AI and Sustainable Technologies capstone program at Tomorrow University of Applied Sciences.
+
+```text
+. 
+├── datasets/
+├── notebook/
+└── README.md
+```
