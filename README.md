@@ -51,12 +51,14 @@ Results disproved this: lagged demand features (yesterday’s and last week’s 
 ---
 
 ## Repository Structure
+```text
 .
 ├── datasets/              # raw and/or processed data (CSV, links in README)
 ├── notebook/              # regression_capstone.ipynb
 ├── report/                # technical report (PDF, up to 12 pages)
 ├── stakeholders/          # stakeholder summary (PDF, plain language)
 └── README.md              # project overview (front page of repo)
+```
 
 ---
 
@@ -79,10 +81,3 @@ Results disproved this: lagged demand features (yesterday’s and last week’s 
 
 ## License
 This project is for educational purposes under the BSc AI and Sustainable Technologies capstone program at Tomorrow University of Applied Sciences.
-
-```text
-. 
-├── datasets/
-├── notebook/
-└── README.md
-```
