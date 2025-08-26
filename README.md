@@ -1,7 +1,7 @@
 # Regression capstone - Predicting Daily Electricity Consumption in Norway
 
 ## Project Overview
-This project investigates whether daily electricity consumption in Norway can be predicted using weather, seasonality, and lagged demand features. The work was completed as part of a capstone project in the [BSc Artificial Intelligence and Sustainable Technologies] program.
+This capstone investigates whether daily electricity consumption in Norway can be predicted using weather, seasonality, and lagged demand features.
 
 **Problem Framing:**  
 Accurate forecasting supports sustainable hydropower reservoir management, grid stability, and reduced reliance on imports.  
