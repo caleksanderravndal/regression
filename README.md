@@ -53,11 +53,12 @@ Results disproved this: lagged demand features (yesterday’s and last week’s 
 ## Repository Structure
 ```text
 .
-├── datasets/              # raw and/or processed data (CSV, links in README)
-├── notebook/              # regression_capstone.ipynb
-├── report/                # technical report (PDF, up to 12 pages)
-├── stakeholders/          # stakeholder summary (PDF, plain language)
-└── README.md              # project overview (front page of repo)
+├── datasets/              # raw and processed data (CSV files)
+├── notebook/              # Jupyter Notebook (regression_capstone.ipynb)
+├── report/                # Technical report (PDF)
+├── stakeholders/          # Stakeholder-facing summary (PDF)
+├── requirements.txt       # Core Python libraries
+└── README.md              # Project overview and instructions
 ```
 
 ---
@@ -71,13 +72,18 @@ Results disproved this: lagged demand features (yesterday’s and last week’s 
 ---
 
 ## How to run
-1. Clone this repository  
-2. Install requirements:  
+1. Clone this repository
+   ```bash
+      git clone https://github.com/caleksanderravndal/regression_capstone.git
+      cd regression_capstone  
+2. Install dependencies
+   The core Python libraries used in this capstone are listed in requirements.txt.
+   Install them with:
    ```bash
    pip install -r requirements.txt
 3. Open the notebook:
    ```bash
-   jupyter notebook regression_capstone.ipynb
+   jupyter notebook notebook/regression_capstone.ipynb
 
 ## Ethical Considerations
 This project used only aggregated, public datasets (ENTSO-E, MET Norway), ensuring no personal data was involved. 
