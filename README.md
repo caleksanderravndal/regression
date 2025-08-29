@@ -79,5 +79,14 @@ Results disproved this: lagged demand features (yesterday’s and last week’s 
    ```bash
    jupyter notebook regression_capstone.ipynb
 
+## Ethical Considerations
+This project used only aggregated, public datasets (ENTSO-E, MET Norway), ensuring no personal data was involved. 
+
+The modeling workflow is transparent and reproducible.  
+
+Limitations include heavy reliance on lag features, which may underrepresent structural changes (e.g., policies, extreme climate events).  
+
+Accurate forecasts can support sustainability, but responsible use requires continuous monitoring and clear communication of limitations.
+
 ## License
 This project is for educational purposes under the BSc AI and Sustainable Technologies capstone program at Tomorrow University of Applied Sciences.
